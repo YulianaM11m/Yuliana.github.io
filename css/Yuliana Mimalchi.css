@@ -1,0 +1,255 @@
+body{
+    margin:10;
+    padding:10;
+    background: #D8D2E1;
+}
+.name{
+    width: 90%;
+    height: 250px;
+    background: #BCAC9B;
+    margin:5% auto;
+    transform: skewY(-2deg);
+    border-radius: 20px;
+}
+
+.name .content{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.name .content .p-1{
+    color: #524948;
+    font-family: "Lora", serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transform: skewY(2deg);
+    margin-bottom: 0;
+    
+}
+
+.name .content .p-2{
+    color: #524948;
+    font-family: "Lora", serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transform: skewY(2deg);
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.name .content .p-3{
+    color: #524948;
+    font-family: "Lora", serif;
+    font-weight: bolder;
+    font-size: 20px;
+    transform: skewY(2deg);
+    
+}
+
+.name .content .p-4{
+    color: #524948;
+    font-family: "Lora", serif;
+    font-weight: bolder;
+    font-size: 15px;
+    transform: skewY(2deg);
+    
+}
+
+.name .img{
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    border-radius: 100%;
+    transform: skewY(2deg);
+    overflow: hidden;
+}
+.name.img img{
+    width: 250px;
+    height: 194px;
+}
+
+.Perf {
+    width: 90%;
+    height: auto;
+    background: #BCAC9B;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Perf .tituloPerfil {
+    color: #524948;
+    font-family: "Lora", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #D8D2E1 solid;
+}
+
+.Perf .Perfil {
+    color: #070707;
+    font-family: "Lora", sans-serif;
+    font-size:large;   
+}
+
+.Inf {
+    width: 90%;
+    height: auto;
+    background: #BCAC9B;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Inf .TituloInformación {
+    color: #524948;
+    font-family: "Lora", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #D8D2E1 solid;
+}
+
+.Inf .Nombres {
+    color: #070707;
+    font-family: "Lora", sans-serif;
+    font-size:large;   
+    font-weight: bolder;
+    display: inline;
+}
+
+.Inf .infNombres {
+    color: #070707;
+    font-family: "Lora", sans-serif;
+    font-size: 20px;
+    display: inline;
+}
+
+.Edu{
+    width: 90%;
+    height: auto;
+    background: #BCAC9B;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.Edu .TituloEducacion{
+    color: #524948;
+    font-family: "Lora", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #D8D2E1 solid;
+}
+
+.Edu .Primaria {
+    color: #070707;
+    font-family: "Lora", sans-serif;
+    font-size:large;   
+    font-weight: bolder;
+    display: inline;
+}
+
+.Edu .infPrimaria {
+    color: #070707;
+    font-family: "Lora", sans-serif;
+    font-size: 20px;
+    display: inline;
+}
+
+.Exp{
+    width: 90%;
+    height: auto;
+    background: #BCAC9B;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.Exp .TituloExperiencia{
+    color: #524948;
+    font-family: "Lora", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #D8D2E1 solid;
+}
+
+.Exp .Experiencia {
+    color: #070707;
+    font-family: "Lora", sans-serif;
+    font-size:large;   
+    font-weight: bolder;
+    display: inline;
+}
+
+.Exp .infExperiencia {
+    color: #070707;
+    font-family: "Lora", sans-serif;
+    font-size: 20px;
+    display: inline;
+} 
+
+.Hab{
+    width: 90%;
+    height: auto;
+    background: #BCAC9B;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.Hab .TituloHabilidades{
+    color: #524948;
+    font-family: "Lora", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #D8D2E1 solid;
+}
+
+.Hab .Habilidades {
+    color: #070707;
+    font-family: "Lora", sans-serif;
+    font-size:large;   
+    font-weight: bolder;
+    display: inline;
+}
+
+.Email{
+    width: 90%;
+    height: auto;
+    background: #BCAC9B;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+
+} 
+
+.Email .TituloEmail{
+    color: #524948;
+    font-family: "Lora", sans-serif;
+    text-align: center;
+    font-size:large;   
+    font-weight: bolder;
+    
+   
+
+}
+
+
+.Email .EmailPersonal{
+    color: #070707;
+    font-family: "Lora", sans-serif;
+    text-align: center;
+    font-size:large;   
+    font-weight: bolder;
+   
+}
